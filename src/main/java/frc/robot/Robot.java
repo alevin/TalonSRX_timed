@@ -25,7 +25,7 @@ public class Robot extends TimedRobot {
   private String m_autoSelected;
   private final SendableChooser<String> m_chooser = new SendableChooser<>();
 
-  private final TalonSRX m1_Motor = new TalonSRX(5);
+  private final TalonSRX m1_Motor = new TalonSRX(12);
   private final XboxController m_driverController = new XboxController(0);
 
   /**
